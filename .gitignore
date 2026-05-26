@@ -21,11 +21,20 @@ build/
 *.swp
 *.swo
 
-# Data files (binary)
+# Data files (binary - generados por preprocesamiento)
 *.npy
 *.h5
 *.pkl
 *.pickle
+X_train.npy
+X_test.npy
+y_train.npy
+y_test.npy
+y_pred_mejor.npy
+
+# Dataset preprocesado (redundante con adult/)
+adult_test.data
+adult_train.data
 
 # OS
 .DS_Store
@@ -34,3 +43,13 @@ Thumbs.db
 # Project specific
 .env
 config_*.json
+salida_test.txt
+
+# Scripts auxiliares (no necesarios)
+COLAB_INICIO_RAPIDO.py
+ejecutar_*.py
+test_simple.py
+setup_environment.*
+GUIA_COLAB_RAPIDA.md
+INSTRUCCIONES_GOOGLE_COLAB.md
+mejor_modelo_fase2.h5
